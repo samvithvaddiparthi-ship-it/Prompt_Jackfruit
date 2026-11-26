@@ -1,0 +1,16 @@
+{
+  "model": "ollama:qwen3:4b-instruct",
+  "mock": false,
+  "defenses": [
+    "D0",
+    "D1",
+    "D4",
+    "D8",
+    "D9"
+  ],
+  "n_attacked": 12,
+  "n_clean": 6,
+  "split": "test",
+  "seed": 7,
+  "saved_at": "2026-11-19 10:06:20"
+}

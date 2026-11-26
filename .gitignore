@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# environments and caches
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+
+# paper build intermediates (PDFs are tracked; regenerate with paper/*.py)
+PAPER.html
+PAPER_IEEE.html
+
+# NOTE: results/ is intentionally tracked - quick_eval_*.csv and optimized_defense.json
+# are the evidence behind every number in the paper.
